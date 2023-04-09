@@ -1,0 +1,11 @@
+{
+    "name": "PopupSystem",
+    "alias": "popupsystem",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PopupSystem\\Providers\\PopupSystemServiceProvider"
+    ],
+    "files": []
+}
