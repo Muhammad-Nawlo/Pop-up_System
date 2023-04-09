@@ -51,6 +51,7 @@
                     title: popup.name,
                     text: popup.content,
                     icon: popup.config.status,
+                    ...popup.config
                 }).then(function () {
                     displayPopup(index + 1);
                 });
